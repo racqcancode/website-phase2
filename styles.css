@@ -65,13 +65,36 @@ body {
         justify-content: space-between;
     }
 
-    /* .header-top-left {
-        justify-content: flex-start;
+    .header-top-left {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .btn-social,
+    .search-btn, 
+    .shopping-bag {
+        color: #36A4A6;
+        padding: 0 5px;
+        font-size: 1.2rem;
+    }
+
+    .search-btn {
+        border: none;
+        font-size: 1.2rem;
+        margin-right: 5px;
+        padding-left: 0;
     }
 
     .header-top-right {
-        justify-content: flex-end;
-    } */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
 
     .store-name {
         text-align: center;
