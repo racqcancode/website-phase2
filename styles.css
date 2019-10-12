@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    font-size: 18px;
+    padding-bottom: 10px;
+    /* background-color: #c4c4c4; */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.main-nav {
+    list-style-type: none;
+}
+
+.nav-link,
+.logo {
+    text-decoration: none;
+}
+
+.main-nav li {
+    text-align: center; 
+    margin: 15px auto;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
