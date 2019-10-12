@@ -8,15 +8,20 @@ body {
     font-family: sans-serif;
 }
 
+.header-wrapper {
+    display: none;
+}
+
 .navbar {
     font-size: 18px;
     padding-bottom: 10px;
-    /* background-color: #c4c4c4; */
+    background-color: #c4c4c4;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .main-nav {
     list-style-type: none;
+    display: none;
 }
 
 .nav-link,
@@ -34,4 +39,79 @@ body {
     font-size: 22px;
     margin-top: 10px;
     margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(8, 8, 8, 0.8);
+    font-size: 24px;
+}
+
+.active {
+    display: block;
+}
+
+
+@media screen and (min-width: 768px) {
+    .header-wrapper {
+        display: block;
+    }
+
+    .header-top-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* .header-top-left {
+        justify-content: flex-start;
+    }
+
+    .header-top-right {
+        justify-content: flex-end;
+    } */
+
+    .store-name {
+        text-align: center;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .nav-link {
+        margin-left: 40px;
+        color: black;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+
 }
