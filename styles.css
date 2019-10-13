@@ -29,7 +29,7 @@ body {
 .navbar {
     font-size: 18px;
     padding-bottom: 10px;
-    background-color: var(--lt-gray);
+    /* background-color: var(--lt-gray); */
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -41,6 +41,19 @@ body {
 .nav-link,
 .logo {
     text-decoration: none;
+    color: var(--black-alt);
+}
+
+.nav-link:hover, 
+.logo:hover {
+    color: var(--accent);
+}
+
+.navbar-toggle {
+    color: var(--black-alt);
+}
+.navbar-toggle:hover {
+    color: var(--accent);
 }
 
 .main-nav li {
@@ -143,8 +156,14 @@ body {
         /* width: 100%; */
     }
 
-    .store-name {
+    .store-name h1 {
         text-align: center;
+        font-weight: normal;
+        letter-spacing: .2rem;
+        padding: 5px 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: var(--black-alt);
     }
     
     /* ----------- NAVBAR ----------- */
@@ -168,8 +187,9 @@ body {
     }
 
     .nav-link {
-        margin-left: 40px;
-        color: black;
+        margin: 0 30px;
+        color: var(--black-alt);
+        letter-spacing: .2rem;
     }
 
     .logo {
