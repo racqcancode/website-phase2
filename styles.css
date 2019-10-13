@@ -1,3 +1,11 @@
+:root {
+    --accent: #36A4A6;
+    --dk-gray: #9E9E9E;
+    --lt-gray: #C4C4C4;
+    --black-alt: #373D4C;
+    --white-alt: #F9FAFB;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,14 +16,20 @@ body {
     font-family: sans-serif;
 }
 
+:focus {
+        outline: none;
+    }
+
+/* ----------- HEADER ----------- */
 .header-wrapper {
     display: none;
 }
 
+/* ----------- NAVBAR ----------- */
 .navbar {
     font-size: 18px;
     padding-bottom: 10px;
-    background-color: #c4c4c4;
+    background-color: var(--lt-gray);
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -54,7 +68,7 @@ body {
     display: block;
 }
 
-
+/* ----------- LARGER SCREENS ----------- */
 @media screen and (min-width: 768px) {
     .header-wrapper {
         display: block;
@@ -68,7 +82,7 @@ body {
     .header-top-left {
         display: flex;
         justify-content: space-between;
-        /* align-items: center; */
+        align-items: center;
         margin-top: 10px;
         margin-left: 20px;
     }
@@ -76,7 +90,7 @@ body {
     .btn-social,
     .search-btn, 
     .shopping-bag {
-        color: #36A4A6;
+        color: var(--accent);
         padding: 0 5px;
         font-size: 1.2rem;
     }
@@ -96,10 +110,44 @@ body {
         margin-right: 20px;
     }
 
+    .search-bar,
+    .search-btn {
+        margin: 4px 0;
+    }
+    .form-inline input {
+        /* Attempt to make animated expanding search bar */
+        /* -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out; */
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 11px;
+        border: 1px solid var(--lt-gray);
+    }
+
+    .form-inline button {
+        float: right;
+        padding: 3px 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .form-inline button:hover {
+        background: #ccc;
+    }
+
+    input:focus {
+        border: 1px solid var(--accent);
+        /* width: 100%; */
+    }
+
     .store-name {
         text-align: center;
     }
     
+    /* ----------- NAVBAR ----------- */
     .navbar {
         display: flex;
         justify-content: center;
