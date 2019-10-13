@@ -4,6 +4,7 @@
     --lt-gray: #C4C4C4;
     --black-alt: #373D4C;
     --white-alt: #F9FAFB;
+    --accent-highlight: rgba(54, 154, 156, 0.7);
 }
 
 * {
@@ -101,18 +102,33 @@ body {
     }
 
     .btn-social,
-    .search-btn, 
+    /* .search-btn,  */
     .shopping-bag {
         color: var(--accent);
         padding: 0 5px;
         font-size: 1.2rem;
+        /* text-shadow: -.5px .5px var(--lt-gray); */
+    }
+
+    .btn-social:hover,
+    /* .search-btn:hover,  */
+    .shopping-bag:hover {
+        color: var(--accent-highlight);
+        font-size: 1.3rem;
     }
 
     .search-btn {
+        color: var(--accent);
         border: none;
-        font-size: 1.2rem;
-        margin-right: 5px;
-        padding-left: 0;
+        font-size: 1.1rem;
+        cursor: pointer;
+        padding: 3px 6px;
+        margin-right: 16px;
+    }
+
+    /* Set padding/margin so that search box doesn't move on hover */
+    .search-btn: hover {
+        color: var(--accent-highlight);
     }
 
     .header-top-right {
@@ -138,18 +154,19 @@ body {
     }
 
     .form-inline button {
-        float: right;
+        /* float: right; */
         padding: 3px 6px;
-        margin-top: 8px;
+        /* margin-top: 8px; */
         margin-right: 16px;
         font-size: 18px;
-        border: none;
+        /* border: none; */
         cursor: pointer;
+        /* background: var(--white-alt); */
     }
 
-    .form-inline button:hover {
-        background: #ccc;
-    }
+    /* .form-inline button:hover {
+        
+    } */
 
     input:focus {
         border: 1px solid var(--accent);
