@@ -1,3 +1,247 @@
+:root {
+    --accent: #36A4A6;
+    --dk-gray: #9E9E9E;
+    --lt-gray: #C4C4C4;
+    --black-alt: #373D4C;
+    --white-alt: #F9FAFB;
+    --accent-highlight: rgba(54, 154, 156, 0.7);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+:focus {
+        outline: none;
+    }
+
+/* ----------- HEADER ----------- */
+.header-wrapper {
+    display: none;
+}
+
+/* ----------- NAVBAR ----------- */
+.navbar {
+    font-size: 18px;
+    padding-bottom: 10px;
+    /* background-color: var(--lt-gray); */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-link,
+.logo {
+    text-decoration: none;
+    color: var(--black-alt);
+}
+
+.nav-link:hover, 
+.logo:hover {
+    color: var(--accent);
+}
+
+.navbar-toggle {
+    color: var(--black-alt);
+}
+.navbar-toggle:hover {
+    color: var(--accent);
+}
+
+.main-nav li {
+    text-align: center; 
+    margin: 15px auto;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(8, 8, 8, 0.8);
+    font-size: 24px;
+}
+
+.active {
+    display: block;
+}
+
+/* ----------- FEATURE CATEGORY ----------- */
+.feature-wrapper {
+    margin: 20px 30px;
+}
+
+.feature-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-contents {
+    text-align: center;
+    padding-top: 30px;
+    color: var(--black-alt);
+    line-height: 1.3rem;
+    letter-spacing: .1rem;
+}
+
+/* ----------- LARGER SCREENS ----------- */
+@media screen and (min-width: 768px) {
+    .header-wrapper {
+        display: block;
+    }
+
+    .header-top-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-top-left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .btn-social,
+    /* .search-btn,  */
+    .shopping-bag {
+        color: var(--accent);
+        padding: 0 5px;
+        font-size: 1.2rem;
+        /* text-shadow: -.5px .5px var(--lt-gray); */
+    }
+
+    .btn-social:hover,
+    /* .search-btn:hover,  */
+    .shopping-bag:hover {
+        color: var(--accent-highlight);
+        font-size: 1.3rem;
+    }
+
+    .search-btn {
+        color: var(--accent);
+        border: none;
+        font-size: 1.1rem;
+        cursor: pointer;
+        padding: 3px 6px;
+        margin-right: 16px;
+    }
+
+    /* Set padding/margin so that search box doesn't move on hover */
+    .search-btn: hover {
+        color: var(--accent-highlight);
+    }
+
+    .header-top-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    .search-bar,
+    .search-btn {
+        margin: 4px 0;
+    }
+    .form-inline input {
+        /* Attempt to make animated expanding search bar */
+        /* -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out; */
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 11px;
+        border: 1px solid var(--lt-gray);
+    }
+
+    .form-inline button {
+        /* float: right; */
+        padding: 3px 6px;
+        /* margin-top: 8px; */
+        margin-right: 16px;
+        font-size: 18px;
+        /* border: none; */
+        cursor: pointer;
+        /* background: var(--white-alt); */
+    }
+
+    /* .form-inline button:hover {
+        
+    } */
+
+    input:focus {
+        border: 1px solid var(--accent);
+        /* width: 100%; */
+    }
+
+    .store-name h1 {
+        text-align: center;
+        font-weight: normal;
+        letter-spacing: .2rem;
+        padding: 5px 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: var(--black-alt);
+    }
+    
+    /* ----------- NAVBAR ----------- */
+    .navbar {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .nav-link {
+        margin: 0 30px;
+        color: var(--black-alt);
+        letter-spacing: .2rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+
+
+
 
 h4 {
     font-family: "Roboto";
