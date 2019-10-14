@@ -14,12 +14,16 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 :focus {
-        outline: none;
-    }
+    outline: none;
+}
+
+hr {
+    border-top: 1px solid var(--lt-gray);
+}
 
 /* ----------- HEADER ----------- */
 .header-wrapper {
@@ -95,6 +99,7 @@ body {
 .text-contents {
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
     color: var(--black-alt);
     line-height: 1.3rem;
     letter-spacing: .1rem;
@@ -240,7 +245,7 @@ body {
         color: rgba(255, 255, 255, 1);
     }
 
-
+}
 
 
 h4 {
