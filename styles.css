@@ -242,4 +242,97 @@ body {
 
 
 
+
+h4 {
+    font-family: "Roboto";
+    font-size: 36px;
+}
+
+h5 {
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+h6 {
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+p {
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+
+.instagram-slider {
+    text-align: center;
+}
+
+.sweater-feature {
+    text-align: center;
+}
+
+.love-letters {
+    text-align: center;
+}
+
+.more-info {
+    text-align: center;
+}
+
+.sign-up {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 359px;
+    height: 43px;
+    background-color: #c4c4c4;
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #000;
+    box-shadow: none;
+}
+
+input[type=submit] {
+    width: 134px;
+    height: 45px;
+    font-family: "Roboto";
+    font-size: 13px;
+    background-color: #36A4A6;
+    color: #fff;
+    border: none;
+}
+
+.social {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.address {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.contact {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.footer-container {
+    margin-bottom: 60px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 67px;
+    background-color: #9E9E9E;
+    color: #000;
+    text-align: center;
+    margin-top: 100px;
 }
