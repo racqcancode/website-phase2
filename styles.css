@@ -82,6 +82,24 @@ body {
     display: block;
 }
 
+/* ----------- FEATURE CATEGORY ----------- */
+.feature-wrapper {
+    margin: 20px 30px;
+}
+
+.feature-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-contents {
+    text-align: center;
+    padding-top: 30px;
+    color: var(--black-alt);
+    line-height: 1.3rem;
+    letter-spacing: .1rem;
+}
+
 /* ----------- LARGER SCREENS ----------- */
 @media screen and (min-width: 768px) {
     .header-wrapper {
@@ -221,5 +239,7 @@ body {
     .nav-links:hover {
         color: rgba(255, 255, 255, 1);
     }
+
+
 
 }
