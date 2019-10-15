@@ -105,6 +105,33 @@ hr {
     letter-spacing: .1rem;
 }
 
+/* ----------- CATEGORY SECTION ----------- */
+.section-header {
+    font-weight: normal;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 0;
+    margin: 30px auto;
+    letter-spacing: .1rem;
+}
+
+.category-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.category-link {
+    padding: 10px 20px;
+    margin: 10px 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.category-image {
+    
+}
+
 /* ----------- LARGER SCREENS ----------- */
 @media screen and (min-width: 768px) {
     .header-wrapper {
@@ -244,6 +271,12 @@ hr {
     .nav-links:hover {
         color: rgba(255, 255, 255, 1);
     }
+
+    /* ----------- CATEGORY SECTION ----------- */
+    /* .category-image {
+        max-width: 50%;
+        height: auto;
+    } */
 
 }
 
