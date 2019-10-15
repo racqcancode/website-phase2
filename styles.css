@@ -13,8 +13,38 @@
     margin: 0;
 }
 
+*:before,
+*after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.section-header {
+    font-weight: normal;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: .1rem;
 }
 
 :focus {
@@ -27,7 +57,7 @@ hr {
 
 a, a:hover, a:active, a:visited, a:focus {
     text-decoration:none;
- }
+}
 
 /* ----------- HEADER ----------- */
 .header-wrapper {
@@ -112,20 +142,10 @@ a, a:hover, a:active, a:visited, a:focus {
     letter-spacing: .1rem;
 }
 
-/* ----------- CATEGORY SECTION ----------- */
+/* ----------- CATEGORY SHOP SECTION ----------- */
 .category-shop-wrapper {
     margin-top: 20px;
     margin-bottom: 30px;
-}
-
-.section-header {
-    font-weight: normal;
-    text-align: center;
-    font-size: 2rem;
-    padding: 10px 0;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    letter-spacing: .1rem;
 }
 
 .category-grid {
@@ -135,17 +155,129 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .category-link {
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     margin: 10px 20px;
     max-width: 100%;
     height: auto;
 }
 
-.category-image {
-    
+/* ----------- INSTAGRAM SHOP SECTION ----------- */
+.social-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-/* ----------- LARGER SCREENS ----------- */
+.instagram-slider {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.slider-pic {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* ----------- BLOG FEATURE SECTION ----------- */
+.sweater-feature {
+    text-align: center;
+    margin: 30px;
+}
+
+/* ----------- REVIEWS SECTION ----------- */
+.love-letters {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.letters-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 60px;
+}
+
+/* ----------- MORE INFO SECTION ----------- */
+.more-info {
+    text-align: center;
+    margin: 30px;
+}
+
+.our-images {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* ----------- FOOTER SECTION ----------- */
+.sign-up {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    margin-top: 10px;
+}
+input[type=text] {
+    width: 359px;
+    height: 43px;
+    background-color: var(--lt-gray);
+    /* font-family: "Roboto"; */
+    font-size: 15px;
+    color: #000;
+    box-shadow: none;
+}
+
+input[type=submit] {
+    width: 134px;
+    height: 45px;
+    /* font-family: "Roboto"; */
+    font-size: 18px;
+    background-color: var(--accent);
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
+
+.social {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.address {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.contact {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: var(--dk-gray);
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+}
+
+footer p {
+    font-size: .8rem;
+}
+
+footer span {
+    font-size: .7rem;
+}
+
+/* ----------- TABLET SCREENS ----------- */
 @media screen and (min-width: 768px) {
     .header-wrapper {
         display: block;
@@ -206,6 +338,12 @@ a, a:hover, a:active, a:visited, a:focus {
     .search-btn {
         margin: 4px 0;
     }
+
+    .form-inline {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
     .form-inline input {
         /* Attempt to make animated expanding search bar */
         /* -webkit-transition: width 0.4s ease-in-out;
@@ -287,132 +425,22 @@ a, a:hover, a:active, a:visited, a:focus {
 
     /* ----------- CATEGORY SECTION ----------- */
     /* .category-image {
-        max-width: 50%;
+        max-width: 100px;
         height: auto;
     } */
 
 }
 
 
-/*h4 {
-    font-family: "Roboto";
-    font-size: 36px;
+/* ----------- DESKTOP SCREENS ----------- */
+@media screen and (min-width: 1024px) {
+    .category-image {
+        max-width: 550px;
+        height: auto;
+    }
+
 }
 
-h5 {
-    font-family: "Roboto";
-    font-size: 18px;
-}
 
-h6 {
-    font-family: "Roboto";
-    font-size: 14px;
-}
 
-p {
-    font-family: "Roboto";
-    font-size: 18px;
-}*/
 
-.social-wrapper {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.instagram-slider {
-    text-align: center;
-    margin: 20px 0px;
-}
-
-.slider-pic {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.sweater-feature {
-    text-align: center;
-    margin: 30px;
-}
-
-.love-letters {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
-
-.letters-image {
-    margin-top: 20px;
-}
-
-.more-info {
-    text-align: center;
-    margin: 30px;
-}
-
-.our-images {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.sign-up {
-    text-align: center;
-    margin-top: 50px;
-}
-
-form {
-    margin-top: 10px;
-}
-
-input[type=text] {
-    width: 359px;
-    height: 43px;
-    background-color: #c4c4c4;
-    font-family: "Roboto";
-    font-size: 15px;
-    color: #000;
-    box-shadow: none;
-}
-
-input[type=submit] {
-    width: 134px;
-    height: 45px;
-    font-family: "Roboto";
-    font-size: 18px;
-    background-color: #36A4A6;
-    color: #fff;
-    border: none;
-    text-transform: uppercase;
-}
-
-.social {
-    float: left;
-    width: 33.33%;
-    text-align: center;
-}
-
-.address {
-    float: left;
-    width: 33.33%;
-    text-align: center;
-}
-
-.contact {
-    float: left;
-    width: 33.33%;
-    text-align: center;
-}
-
-.footer-container {
-    margin-bottom: 60px;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 67px;
-    background-color: #9E9E9E;
-    color: #000;
-    text-align: center;
-    margin-top: 100px;
-}
