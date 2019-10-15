@@ -41,7 +41,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 - fixed border  https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551
 - combined our  css together into one "chronological" flow
-
+- added class "feature-image" to blog sweater image to make it responsive
+- made review image responsive and added padding
 
 
 
