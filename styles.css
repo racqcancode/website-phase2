@@ -329,6 +329,12 @@ footer span {
     .search-btn {
         margin: 4px 0;
     }
+
+    .form-inline {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
     .form-inline input {
         /* Attempt to make animated expanding search bar */
         /* -webkit-transition: width 0.4s ease-in-out;
