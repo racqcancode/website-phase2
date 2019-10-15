@@ -45,6 +45,10 @@ hr {
     border-top: 1px solid var(--lt-gray);
 }
 
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
 /* ----------- HEADER ----------- */
 .header-wrapper {
     display: none;
@@ -112,8 +116,11 @@ hr {
 }
 
 .feature-image {
+    display: block;
     max-width: 100%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text-contents {
@@ -126,12 +133,18 @@ hr {
 }
 
 /* ----------- CATEGORY SHOP SECTION ----------- */
+.category-shop-wrapper {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 .section-header {
     font-weight: normal;
     text-align: center;
     font-size: 2rem;
     padding: 10px 0;
-    margin: 30px auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
     letter-spacing: .1rem;
 }
 
@@ -149,36 +162,60 @@ hr {
 }
 
 /* ----------- INSTAGRAM SHOP SECTION ----------- */
+.social-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .instagram-slider {
     text-align: center;
+    margin: 20px 0px;
+}
+
+.slider-pic {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /* ----------- BLOG FEATURE SECTION ----------- */
 .sweater-feature {
     text-align: center;
+    margin: 30px;
 }
 
 /* ----------- REVIEWS SECTION ----------- */
 .love-letters {
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 /* ----------- MORE INFO SECTION ----------- */
 .more-info {
     text-align: center;
+    margin: 30px;
+}
+
+.our-images {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /* ----------- FOOTER SECTION ----------- */
 .sign-up {
     text-align: center;
+    margin-top: 50px;
 }
 
+form {
+    margin-top: 10px;
+}
 input[type=text] {
     width: 359px;
     height: 43px;
     background-color: #c4c4c4;
     /* font-family: "Roboto"; */
-    font-size: 12px;
+    font-size: 15px;
     color: #000;
     box-shadow: none;
 }
@@ -187,10 +224,11 @@ input[type=submit] {
     width: 134px;
     height: 45px;
     /* font-family: "Roboto"; */
-    font-size: 13px;
+    font-size: 18px;
     background-color: #36A4A6;
     color: #fff;
     border: none;
+    text-transform: uppercase;
 }
 
 .social {
@@ -377,5 +415,9 @@ footer span {
     }
 
 }
+
+
+
+
 
 
