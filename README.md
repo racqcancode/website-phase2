@@ -35,3 +35,16 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+# frontend-website
+
+- fixed border  https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551
+- combined our  css together into one "chronological" flow
+
+
+
+
+- anchor tag was bigger than inside element (img) https://stackoverflow.com/questions/22786357/anchor-tag-is-larger-than-element-it-holds
+- how use google font https://fonts.google.com/?query=robot&selection.family=Roboto:300i,400,700
+- (find mobile menu tutorial)
