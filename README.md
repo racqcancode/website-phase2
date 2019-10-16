@@ -37,6 +37,12 @@ _Required Website Features_
 
 <img src="https://i.imgur.com/jUBcVRU.png" width="800px" align="center">
 
+## Project Wireframe
+
+We built the website wireframe in Figma, which can be viewed [here](https://www.figma.com/file/sUTl0pqMMXmkgb0kKHRMqD/Authentic-Grace?node-id=0%3A1).
+
+<img src="https://i.imgur.com/CKEtBy9.png" width="300px">
+
 ## Project Responsibilites
 
 We worked together every step of the way to create the website.  We began by discussing our goals and our vision of how we wanted to execute the client's needs to appeal to the client's target customer base.  We then divided the necessary tasks and regularly commitcated via Slack and video conferencing to provide feedback and progress through each phase.  
