@@ -27,6 +27,7 @@ body {
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--black-alt);
 }
 
 .main-container {
@@ -63,6 +64,54 @@ a, a:hover, a:active, a:visited, a:focus {
 .header-wrapper {
     display: none;
 }
+
+.header-top-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.btn-social,
+.shopping-bag {
+    color: var(--accent);
+    padding: 0 10px;
+    font-size: 1.5rem;
+}
+
+.btn-social:hover,
+.shopping-bag:hover {
+    color: var(--accent-highlight);
+    font-size: 1.6rem;
+}
+
+.search-btn {
+    color: var(--accent);
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 3px 6px;
+    margin-right: 16px;
+}
+
+/* Set padding/margin so that search box doesn't move on hover */
+.search-btn: hover {
+    color: var(--accent-highlight);
+}
+
+.header-top-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        margin-right: 40px;
+    }
 
 /* ----------- NAVBAR ----------- */
 .navbar {
@@ -283,33 +332,31 @@ footer span {
         display: block;
     }
 
-    .header-top-row {
+    /* Moved all of this for icons into main to fix icons in footer */
+    /* .header-top-row {
         display: flex;
         justify-content: space-between;
-    }
+    } */
 
-    .header-top-left {
+    /* .header-top-left {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 10px;
-        margin-left: 20px;
-    }
+        margin-left: 40px;
+    } */
 
-    .btn-social,
-    /* .search-btn,  */
+    /* .btn-social,
     .shopping-bag {
         color: var(--accent);
-        padding: 0 5px;
-        font-size: 1.2rem;
-        /* text-shadow: -.5px .5px var(--lt-gray); */
+        padding: 0 10px;
+        font-size: 1.5rem;
     }
 
     .btn-social:hover,
-    /* .search-btn:hover,  */
     .shopping-bag:hover {
         color: var(--accent-highlight);
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
 
     .search-btn {
@@ -322,17 +369,17 @@ footer span {
     }
 
     /* Set padding/margin so that search box doesn't move on hover */
-    .search-btn: hover {
+    /* .search-btn: hover {
         color: var(--accent-highlight);
-    }
+    } */ */
 
-    .header-top-right {
+    /* .header-top-right {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 10px;
-        margin-right: 20px;
-    }
+        margin-right: 40px;
+    } */
 
     .search-bar,
     .search-btn {
@@ -359,7 +406,7 @@ footer span {
         padding: 3px 6px;
         /* margin-top: 8px; */
         margin-right: 16px;
-        font-size: 18px;
+        font-size: 1.3rem;
         /* border: none; */
         cursor: pointer;
         /* background: var(--white-alt); */
