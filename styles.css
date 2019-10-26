@@ -259,6 +259,105 @@ a, a:hover, a:active, a:visited, a:focus {
     padding-right: 5px;
 }
 
+/* -------------product feature-------------- */
+.navigation {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.product-feature-container {
+    margin: 30px auto;
+    width: 75%;
+}
+
+.images-container {
+    margin-top: 20px;
+    width: 47%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.large {
+    width: 100%;
+}
+
+.alt-views {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.small {
+    width: 30%;
+}
+
+.description-container {
+    margin-top: 20px;
+    width: 47%;
+    float: right;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.product-name-container {
+    width: 80%;
+}
+
+.rating {
+    font-size: 12px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.quantity {
+    margin-bottom: 20px;
+}
+
+.order {
+    margin-top: 20px;
+}
+
+.add {
+    width: 100%;
+    background-color: var(--lt-gray);
+    font-size: 18px;
+}
+
+.return {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* -------------product reviews-------------- */
+
+
+.single-product-review {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.testimonial {
+    float: left;
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+.testimonial2 {
+    float: left;
+    width: 85%;
+    margin-bottom: 50px;
+}
+.stars {
+    float: right;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
 /* ----------- FOOTER SECTION ----------- */
 .sign-up {
     text-align: center;
