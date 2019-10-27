@@ -1,7 +1,7 @@
 
-# Authentic Grace 
+# Authentic Grace Phase 2
 
-View on Netlify: [Authentic Grace Front End Website](https://loving-minsky-8fe614.netlify.com/)
+View on Netlify: [Authentic Grace Front End Website - Phase 2](link)
 
 ## About the Project
 
@@ -9,48 +9,25 @@ Authentic Grace is a fictional brick-and-mortar clothing store in need of a webs
 
 ## Project Guidelines
 
-The goal of the project was to design and develop an MVP for a website for the client, Authentic Grace.
+In version, 1.0, the goal of the project was to design and develop an MVP for a website for the client, Authentic Grace.  In this version, 2.0.  We were to add a product page that linked directly from our original website while making the website more accessible.
 
-_Client Description_
-Name of the company is Authentic Grace, a small family owned business in Charleston, SC.  We have a fun and creative boutique selling women’s clothing that we started in 2013. We purchase our own inventory and we work hard to find styles that will make you excited about shopping with us. 
-
-We will need a way for people to purchase our clothes online and I would love to have a blog so that I can introduce new items and increase our brand visibility. At this time we don’t have a website. We would really like a site that has pretty images of our clothing and simple design so that the images speak for themselves. 
-
-_Buyer Persona_
-Erin, 37, a fit and active woman with two children under the age of 6. She loves to add pieces to her wardrobe that won’t break the bank and are easily washed. She has a classic style and likes to mix in a few trendy pieces. At this time she is a stay at home Mom but she still wants to look stylish and not get stuck in the Mom. She loves entertainment TV and her favorite blogs to follow are Ivory Lane, 9to5chic and Hello Fashion. 
-
-_Competitors_
-Vici Collection, Roolee, Shop Stevie, Ascot and Hart, Jean Jail and Effin Shop. 
-
-_Required Website Features_
-* Straightforward logical web structure.
-* Responsive Web Design
-* Prominent Navigation Bar
-* Consistent Theme
-* Images
-* Social media links
-* Footer
-* Contact info for the store
-* Customer testimonials
+_Required Project Features_
+* Create an Accessible Website
+* Create a Shopping Item Details page
+* Unobtrusive file structure
+* Links
+* No code comments are present
+* Project coded using HTML5 and CSS3 plus Javascript
+* Code structure is readible
+* Website is deployed
 
 ## Project Partial Screenshot
 
-<img src="https://i.imgur.com/jUBcVRU.png" width="800px" align="center">
+<img src="images/product_page.jpg" width="800px" align="center">
 
 ## Project Wireframe
 
-We built the website wireframe in Figma, which can be viewed [here](https://www.figma.com/file/sUTl0pqMMXmkgb0kKHRMqD/Authentic-Grace?node-id=0%3A1).
-
-<img src="https://i.imgur.com/CKEtBy9.png" width="300px">
-
-## Project Responsibilites
-
-We worked together every step of the way to create the website.  We began by discussing our goals and our vision of how we wanted to execute the client's needs to appeal to the client's target customer base.  We then divided the necessary tasks and regularly commitcated via Slack and video conferencing to provide feedback and progress through each phase.  
-
-Amy took the lead on the design of the website.  Racquel curated the photos needed for the design and then created and edited the images to be applied to the website.  We coded and edited portions of the website together through review and pair programming.  Overall, Amy was tasked with coding the top portion of the site from the header through the "find your fancy" category section, and Racquel coded the bottom portion from the instagram photo slider through the footer.
-
-Our goals were to create a clean, minimal, and engaging website that looks appealing and easy to shop on.  We chose a simply grayscale color theme with a lively teal accent.  
-
+The website wireframe in Figma, which can be viewed [here](https://www.figma.com/file/pqkXOmtQ4aI7D2edEtuTqc/Authentic-Grace-1.0---Racquel?node-id=0%3A1).
 
 ## Contact
 
@@ -58,9 +35,3 @@ Racquel Tung
 * Portfolio: [https://racqcancode.github.io/portfolio-WIP](https://racqcancode.github.io/portfolio-WIP)
 * Github: [racqcancode](https://github.com/racqcancode)
 * Twitter: [@racqcancode](https://twitter.com/racqcancode)
-
-Amy McGowan
-* Portfolio: [amymcgowan.dev](https://amymcgowan.dev/)
-* GitHub: [amymcgowan](https://github.com/amymcgowan)
-* Twitter: [@_amymcgowan](https://twitter.com/_amymcgowan)
-
