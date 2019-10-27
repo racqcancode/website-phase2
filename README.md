@@ -1,7 +1,7 @@
 
 # Authentic Grace Phase 2
 
-View on Netlify: [Authentic Grace Front End Website - Phase 2](link)
+View on Netlify: [Authentic Grace Front End Website - Phase 2](https://authentic-grace-phase2-rmt.netlify.com/)
 
 ## About the Project
 
